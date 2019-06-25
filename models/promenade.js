@@ -7,7 +7,7 @@ var PromenadeSchema = bd.mongoose.Schema({
       ref: "users",
     },
     adress:String,
-    date: String,
+    date: Date,
     heure:String,
     duree: String,
     warning:String,

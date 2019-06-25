@@ -1,4 +1,4 @@
-const bd = require('./models/bd');
+require('./models/bd');
 var fileUpload = require('express-fileupload');
 var createError = require('http-errors');
 var express = require('express');
